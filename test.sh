@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd ..
 g++ main.cpp -ansi -pedantic -Wall -lm -o main
 
 for i in $(seq 1 $2)
